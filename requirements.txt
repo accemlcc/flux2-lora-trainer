@@ -1,0 +1,23 @@
+# Core - Install PyTorch with CUDA separately (see README)
+# torch>=2.6.0
+# torchvision>=0.21.0
+
+# Diffusers ecosystem
+diffusers>=0.32.0
+transformers>=4.47.0
+accelerate>=1.2.0
+
+# LoRA
+peft>=0.14.0
+
+# Quantization
+bitsandbytes>=0.45.0
+
+# Utils
+tqdm
+pillow
+gradio
+gradio_client
+
+# Optional: for HuggingFace authentication
+huggingface_hub>=0.27.0
